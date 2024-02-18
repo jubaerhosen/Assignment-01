@@ -1,0 +1,134 @@
+body {
+  font-family: Merriweather;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* banner releted styles */
+.banner {
+  background-image: url(../resources/Banner\ Image.png);
+  max-width: 1360px;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0 auto;
+}
+.banner-sub-title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 170px;
+}
+.banner-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  text-align: center;
+  color: #ffffff;
+}
+/* 65 section */
+.off-text-section {
+  text-align: center;
+}
+.off {
+  font-size: 88px;
+  font-weight: 700;
+  color: #ff0000;
+  padding-top: 120px;
+  font-family: Inter;
+}
+.holiday {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.categories {
+  font-size: 48px;
+  font-weight: 700;
+  color: #070211;
+}
+.new-year-photo {
+  max-width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  padding-top: 45px;
+}
+/* welcome section */
+.welcome-section {
+  margin-top: 120px;
+  background-image: url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  max-width: 1320px;
+  height: 600px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 126px;
+  border-radius: 16px;
+
+  /* background-color: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%); */
+}
+.welcome-container p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffffcc;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.welcome-title {
+  font-size: 64px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.welcome-container button {
+  all: unset;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: Inter;
+}
+
+.event-info {
+  max-width: 1320px;
+  margin: auto;
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.event-info p {
+  margin-block: 16px;
+  font-weight: 600;
+  font-family: Inter;
+}
+
+.event-info p strong {
+  color: #ff0000;
+}
+
+.event-info button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #ffffff;
+  background: rgb(255, 0, 0);
+  padding: 16px 32px 16px 32px;
+  font-family: Inter;
+}
